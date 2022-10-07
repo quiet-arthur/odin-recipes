@@ -1,2 +1,5 @@
 # Odin project - Recipes
-## The files above are from the 'Project 01' on the HTML foundations path of the TOP.
+## 'Recipes' 
+It's a project from The Odin Project foundations path. A course where I were able to learn some basics HTML elements and some CSS properties. 
+### How do view it? 
+You can have a live view access through the url https://quiet-arthur.github.io/odin-recipes/index.html 
