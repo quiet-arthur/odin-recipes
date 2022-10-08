@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*NAVBAR*/
+nav {
+    background-color: aqua;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 8px 10px 10px pink;
+}
+.header.nav-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.star-icon {
+    width: 25px;
+    height: 25px;
+}
+nav div a {
+    font-weight: 600;
+    font-size: 22px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+.nav-middle h1 {
+    color: antiquewhite;
+    margin: 8px 0;
+    font-size: 30px;
+}
+/*RECIPE*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.recipe-view {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.recipe-intro {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.recipe-intro p {
+    font-size: 22px;
+}
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.ingredients {
+    margin: 20px 40px;
+}
+.ingredients h3 {
+    text-align: center;
+}
+.ingredients ul {
+    margin-top: 12px;
+    text-align: left;
+}
+.how-do h3 {
+    text-align: center;
+}
+.how-do {
+    margin-top: 20px;
+}
+.how-do ol {
+    margin-top: 12px;
+    padding-left: 120px;
+    margin-right: 20px;
+}
+img {
+    border-radius: 10px;
+}
